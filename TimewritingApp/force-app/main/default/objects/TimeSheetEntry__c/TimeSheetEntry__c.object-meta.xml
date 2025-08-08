@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>TimeSheet Entry</label>
+    <pluralLabel>TimeSheet Entries</pluralLabel>
+    <nameField>
+        <label>TimeSheet Entry ID</label>
+        <type>AutoNumber</type>
+        <displayFormat>TSE-{00000}</displayFormat>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ControlledByParent</sharingModel>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+</CustomObject>
